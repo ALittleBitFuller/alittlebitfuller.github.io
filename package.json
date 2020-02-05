@@ -12,8 +12,6 @@
 		"grunt-contrib-requirejs": "^1.0.0",
 		"grunt-contrib-uglify": "^4.0.1",
 		"http-server": "^0.12.1",
-		"load-grunt-tasks": "^5.1.0",
-		"npm-check": "^5.9.0",
-		"requirejs": "^2.3.6"
+		"load-grunt-tasks": "^5.1.0"
 	}
 }
