@@ -54,6 +54,7 @@ a:hover, a:focus {
 .navbar-toggle {
     margin-top: 20px;
     margin-bottom: 21px;
+    visibility: hidden;
 }
 
 /* Hero
@@ -129,23 +130,32 @@ a:hover, a:focus {
 .home-banner .home-banner-slogan {
     bottom: 0;
     box-shadow: 0 0 0 200px rgba(33, 102, 153, 0.85) inset;
-    position: absolute;
+    position: relative;
     width: 100%;
     z-index: 800;
     padding: 25px 0;
 }
 
-@media (max-width: 992px) {
+@media (min-width: 992px) {
+
     .home-banner .home-banner-slogan {
-        position: relative;
+        position: absolute;
     }
+
+    .home-banner .home-banner-slogan .container {
+        padding-left: 0;
+    }
+
 }
 
 .home-banner .home-banner-slogan .container {
-    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.home-banner-slogan .description {
+.home-banner-slogan .container #slogan h2 {
     font-size: 22px;
     margin-top: 15px;
 }
