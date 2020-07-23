@@ -1,6 +1,6 @@
 {
 	"name": "ytl-build",
-	"version": "1.6.0",
+	"version": "1.7.0",
 	"devDependencies": {
 		"grunt": "^1.2.1",
 		"grunt-contrib-clean": "^2.0.0",
