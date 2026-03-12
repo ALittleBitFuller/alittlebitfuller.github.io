@@ -12,7 +12,7 @@ module.exports = () => {
         target: 'web',
         entry: path.resolve(__dirname, 'src/empty.js'),
         output: {
-            path: __dirname + '/public/'
+            path: __dirname + '/docs/'
         },
         module: {
             rules: [

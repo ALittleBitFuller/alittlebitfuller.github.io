@@ -3,9 +3,9 @@
 	"version": "1.0.0",
 	"scripts": {
 		"build": "webpack --config webpack.config.js",
-		"serve": "http-server ./public -c-1 -o",
+		"serve": "http-server ./docs -c-1 -o",
 		"dev": "http-server ./src -c-1 -o",
-		"deploy": "gh-pages -d public"
+		"deploy": "gh-pages -d docs"
 	},
 	"devDependencies": {
 		"clean-webpack-plugin": "^4.0.0",
