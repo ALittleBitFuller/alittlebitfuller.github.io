@@ -40,6 +40,10 @@ module.exports = () => {
                             ignore: [ "**/index.js" ]
                         }
                     },
+                    {
+                        from: "CNAME",
+                        to: ""
+                    }
                 ],
             } )
         ],
