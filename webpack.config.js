@@ -10,7 +10,7 @@ module.exports = () => {
         name: 'prodbuild',
         mode: 'production',
         target: 'web',
-        // entry: '.src/index.js',
+        entry: path.resolve(__dirname, 'src/empty.js'),
         output: {
             path: __dirname + '/public/'
         },
